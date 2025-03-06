@@ -1,0 +1,278 @@
+{
+    "name": "cue2keys",
+    "productId": "0xC2C2",
+    "vendorId": "0xFEFD",
+    "menus": [],
+    "keycodes": [],
+    "matrix": {
+        "cols": 10,
+        "rows": 25
+    },
+    "customKeycodes": [
+        {
+            "name": "ROT_R30_1",
+            "title": "Rotate sensor angle by 30 degrees clockwise (1st trackball)",
+            "shortName": "ROT_R30_1"
+        },
+        {
+            "name": "ROT_L30_1",
+            "title": "Rotate sensor angle by 30 degrees counterclockwise (1st trackball)",
+            "shortName": "ROT_L30_1"
+        },
+        {
+            "name": "ROT_R30_2",
+            "title": "Rotate sensor angle by 30 degrees clockwise (2nd trackball)",
+            "shortName": "ROT_R30_2"
+        },
+        {
+            "name": "ROT_L30_2",
+            "title": "Rotate sensor angle by 30 degrees counterclockwise (2nd trackball)",
+            "shortName": "ROT_L30_2"
+        },
+        {
+            "name": "ROT_R2_1",
+            "title": "Rotate sensor angle by 2 degrees clockwise (1st trackball)",
+            "shortName": "ROT_R2_1"
+        },
+        {
+            "name": "ROT_L2_1",
+            "title": "Rotate sensor angle by 2 degrees counterclockwise (1st trackball)",
+            "shortName": "ROT_L2_1"
+        },
+
+        {
+            "name": "ROT_R2_2",
+            "title": "Rotate sensor angle by 2 degrees clockwise (2nd trackball)",
+            "shortName": "ROT_R2_2"
+        },
+        {
+            "name": "ROT_L2_2",
+            "title": "Rotate sensor angle by 2 degrees counterclockwise (2nd trackball)",
+            "shortName": "ROT_L2_2"
+        },
+        {
+            "name": "MOUSE_LAYER_MS_ADD_100MS",
+            "title": "Add 100ms to the delay time to enable mouse layer when trackball is moved",
+            "shortName": "MOUSE_LAYER_MS_ADD_100MS"
+        },
+        {
+            "name": "MOUSE_LAYER_MS_MINUS_100MS",
+            "title": "Minus 100ms to the delay time to enable mouse layer when trackball is moved",
+            "shortName": "MOUSE_LAYER_MS_MINUS_100MS"
+        }
+    ],
+    "layouts": {
+        "keymap": [
+            [
+                "1,0",
+                "1,5",
+                "2,0",
+                "2,5",
+                "3,0",
+                "3,5",
+                "4,0",
+                "4,5",
+                "5,0\n\n\n\n\n\n\n\n\ne1",
+                "7,0",
+                "7,5",
+                "8,0",
+                "8,5",
+                "9,0",
+                "9,5",
+                "10,0",
+                "10,5",
+                "11,0\n\n\n\n\n\n\n\n\ne5",
+                "13,0",
+                "13,5",
+                "14,0",
+                "14,5",
+                "15,0",
+                "15,5",
+                "16,0",
+                "16,5",
+                "17,0\n\n\n\n\n\n\n\n\ne9",
+                "19,0",
+                "19,5",
+                "20,0",
+                "20,5",
+                "21,0",
+                "21,5",
+                "22,0",
+                "22,5",
+                "23,0\n\n\n\n\n\n\n\n\ne13",
+                {
+                    "x": 1
+                }
+            ],
+            [
+                "1,1",
+                "1,6",
+                "2,1",
+                "2,6",
+                "3,1",
+                "3,6",
+                "4,1",
+                "4,6",
+                "5,1\n\n\n\n\n\n\n\n\ne2",
+                "7,1",
+                "7,6",
+                "8,1",
+                "8,6",
+                "9,1",
+                "9,6",
+                "10,1",
+                "10,6",
+                "11,1\n\n\n\n\n\n\n\n\ne6",
+                "13,1",
+                "13,6",
+                "14,1",
+                "14,6",
+                "15,1",
+                "15,6",
+                "16,1",
+                "16,6",
+                "17,1\n\n\n\n\n\n\n\n\ne10",
+                "19,1",
+                "19,6",
+                "20,1",
+                "20,6",
+                "21,1",
+                "21,6",
+                "22,1",
+                "22,6",
+                "23,1\n\n\n\n\n\n\n\n\ne14",
+                {
+                    "x": 1
+                }
+            ],
+            [
+                "1,2",
+                "1,7",
+                "2,2",
+                "2,7",
+                "3,2",
+                "3,7",
+                "4,2",
+                "4,7",
+                "5,2\n\n\n\n\n\n\n\n\ne3",
+                "7,2",
+                "7,7",
+                "8,2",
+                "8,7",
+                "9,2",
+                "9,7",
+                "10,2",
+                "10,7",
+                "11,2\n\n\n\n\n\n\n\n\ne7",
+                "13,2",
+                "13,7",
+                "14,2",
+                "14,7",
+                "15,2",
+                "15,7",
+                "16,2",
+                "16,7",
+                "17,2\n\n\n\n\n\n\n\n\ne11",
+                "19,2",
+                "19,7",
+                "20,2",
+                "20,7",
+                "21,2",
+                "21,7",
+                "22,2",
+                "22,7",
+                "23,2\n\n\n\n\n\n\n\n\ne15",
+                {
+                    "x": 1
+                }
+            ],
+            [
+                "1,3",
+                "1,8",
+                "2,3",
+                "2,8",
+                "3,3",
+                "3,8",
+                "4,3",
+                "4,8",
+                "5,3\n\n\n\n\n\n\n\n\ne4",
+                "7,3",
+                "7,8",
+                "8,3",
+                "8,8",
+                "9,3",
+                "9,8",
+                "10,3",
+                "10,8",
+                "11,3\n\n\n\n\n\n\n\n\ne8",
+                "13,3",
+                "13,8",
+                "14,3",
+                "14,8",
+                "15,3",
+                "15,8",
+                "16,3",
+                "16,8",
+                "17,3\n\n\n\n\n\n\n\n\ne12",
+                "19,3",
+                "19,8",
+                "20,3",
+                "20,8",
+                "21,3",
+                "21,8",
+                "22,3",
+                "22,8",
+                "23,3\n\n\n\n\n\n\n\n\ne16",
+                {
+                    "x": 1
+                }
+            ],
+            [
+                "1,4",
+                "1,9",
+                "2,4",
+                "2,9",
+                "3,4",
+                "3,9",
+                "4,4",
+                "4,9",
+                {
+                    "x": 1
+                },
+                "7,4",
+                "7,9",
+                "8,4",
+                "8,9",
+                "9,4",
+                "9,9",
+                "10,4",
+                "10,9",
+                {
+                    "x": 1
+                },
+                "13,4",
+                "13,9",
+                "14,4",
+                "14,9",
+                "15,4",
+                "15,9",
+                "16,4",
+                "16,9",
+                {
+                    "x": 1
+                },
+                "19,4",
+                "19,9",
+                "20,4",
+                "20,9",
+                "21,4",
+                "21,9",
+                "22,4",
+                "22,9",
+                {
+                    "x": 2
+                }
+            ]
+        ]
+    }
+}
