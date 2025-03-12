@@ -10,55 +10,64 @@
     },
     "customKeycodes": [
         {
+            "name": "NEXT_OLED_PAGE",
+            "shortName": "NEXT_OLED_PAGE",
+            "title": "Open next page on OLED display"
+        },
+        {
             "name": "ROT_R30_1",
-            "title": "Rotate sensor angle by 30 degrees clockwise (1st trackball)",
-            "shortName": "ROT_R30_1"
+            "shortName": "ROT_R30_1",
+            "title": "Rotate sensor angle by 30 degrees clockwise (1st trackball)"
         },
         {
             "name": "ROT_L30_1",
-            "title": "Rotate sensor angle by 30 degrees counterclockwise (1st trackball)",
-            "shortName": "ROT_L30_1"
+            "shortName": "ROT_L30_1",
+            "title": "Rotate sensor angle by 30 degrees counterclockwise (1st trackball)"
         },
         {
             "name": "ROT_R30_2",
-            "title": "Rotate sensor angle by 30 degrees clockwise (2nd trackball)",
-            "shortName": "ROT_R30_2"
+            "shortName": "ROT_R30_2",
+            "title": "Rotate sensor angle by 30 degrees clockwise (2nd trackball)"
         },
         {
             "name": "ROT_L30_2",
-            "title": "Rotate sensor angle by 30 degrees counterclockwise (2nd trackball)",
-            "shortName": "ROT_L30_2"
+            "shortName": "ROT_L30_2",
+            "title": "Rotate sensor angle by 30 degrees counterclockwise (2nd trackball)"
         },
         {
             "name": "ROT_R2_1",
-            "title": "Rotate sensor angle by 2 degrees clockwise (1st trackball)",
-            "shortName": "ROT_R2_1"
+            "shortName": "ROT_R2_1",
+            "title": "Rotate sensor angle by 2 degrees clockwise (1st trackball)"
         },
         {
             "name": "ROT_L2_1",
-            "title": "Rotate sensor angle by 2 degrees counterclockwise (1st trackball)",
-            "shortName": "ROT_L2_1"
+            "shortName": "ROT_L2_1",
+            "title": "Rotate sensor angle by 2 degrees counterclockwise (1st trackball)"
         },
-
         {
             "name": "ROT_R2_2",
-            "title": "Rotate sensor angle by 2 degrees clockwise (2nd trackball)",
-            "shortName": "ROT_R2_2"
+            "shortName": "ROT_R2_2",
+            "title": "Rotate sensor angle by 2 degrees clockwise (2nd trackball)"
         },
         {
             "name": "ROT_L2_2",
-            "title": "Rotate sensor angle by 2 degrees counterclockwise (2nd trackball)",
-            "shortName": "ROT_L2_2"
+            "shortName": "ROT_L2_2",
+            "title": "Rotate sensor angle by 2 degrees counterclockwise (2nd trackball)"
         },
         {
             "name": "MOUSE_LAYER_MS_ADD_100MS",
-            "title": "Add 100ms to the delay time to enable mouse layer when trackball is moved",
-            "shortName": "MOUSE_LAYER_MS_ADD_100MS"
+            "shortName": "MOUSE_LAYER_MS_ADD_100MS",
+            "title": "Add 100ms to the delay time to enable mouse layer when trackball is moved"
         },
         {
             "name": "MOUSE_LAYER_MS_MINUS_100MS",
-            "title": "Minus 100ms to the delay time to enable mouse layer when trackball is moved",
-            "shortName": "MOUSE_LAYER_MS_MINUS_100MS"
+            "shortName": "MOUSE_LAYER_MS_MINUS_100MS",
+            "title": "Minus 100ms to the delay time to enable mouse layer when trackball is moved"
+        },
+        {
+            "name": "POINTER_SPEED_MAG_CHANGE",
+            "shortName": "POINTER_SPEED_MAG_CHANGE",
+            "title": "Change the pointer speed magnifier. 1x -> 2x -> 4x -> 0.5x -> 1x -> ..."
         }
     ],
     "layouts": {
