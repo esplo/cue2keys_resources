@@ -18,6 +18,7 @@
 
 ## リソース一覧
 
+- [3Dモデル](./3D/)
 - [ビルドガイド](./docs/build_guide.md)
 - [FAQ](./docs/faq.md)
 - [カスタマイズガイド](./docs/customize_guide.md)
