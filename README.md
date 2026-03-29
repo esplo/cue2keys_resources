@@ -15,15 +15,20 @@
 
 [購入ガイド](./v2/docs/shopping_guide.md)をご確認ください。
 
+## 購入したので組み立てを知りたい
+
+[ビルドガイド](./v2/docs/build_guide.md)をご覧ください。
+
+## 感想・不具合報告・要望を伝えたい
+
+[SNS](https://x.com/cue2keys)、[マシュマロ](https://marshmallow-qa.com/9p7qcrd1b86zk8d)、このリポジトリの[issue](https://github.com/esplo/cue2keys_resources/issues)、[BOOTHのメッセージ](https://c2k.booth.pm/)などでご連絡ください。
+
 ## 挙動を調整したい
 
 くっつきー2用Webアプリをご利用ください。
+利用方法はアプリに記載の案内、[ビルドガイド](./v2/docs/build_guide.md)などをご覧ください。
 
 https://app-cue2keys.esplo.net
-
-## 不具合報告・要望を伝えたい
-
-[SNS](https://x.com/cue2keys)、[マシュマロ](https://marshmallow-qa.com/9p7qcrd1b86zk8d)、このリポジトリの[issue](https://github.com/esplo/cue2keys_resources/issues)などでご連絡ください。
 
 ## リソース一覧
 
