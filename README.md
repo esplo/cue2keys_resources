@@ -41,8 +41,9 @@ https://app-cue2keys.esplo.net
 - [カスタマイズガイド](./v2/docs/customize_guide.md)
 - [ファームウェアガイド](./v2/docs/firmware_guide.md)
 - [制限・制約](./v2/docs/limits.md)
-- 3Dモデル（準備中）
+- [3Dモデル](./v2/docs/models.md)
 
 モジュールの詳細
 
 - [キーモジュール](./v2/docs/modules/keys.md)
+- [キーモジュール](./v2/docs/modules/display.md)
