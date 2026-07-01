@@ -17,6 +17,7 @@
 - [ノブ](https://makerworld.com/en/models/2978908-cue2keys-2-rotary-encoder-module-case#profileId-3341963)
 - [土台](https://makerworld.com/en/models/2978887-cue2keys-2-base#profileId-3341940)
 - [土台ケース](https://makerworld.com/en/models/2978878-cue2keys-2-base-case#profileId-3341930)
+- [チップ](https://makerworld.com/en/models/2997135-cue2keys-2-chip#profileId-3364564)
 
 ## 印刷のTips
 
