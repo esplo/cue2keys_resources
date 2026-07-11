@@ -46,4 +46,4 @@ https://app-cue2keys.esplo.net
 モジュールの詳細
 
 - [キーモジュール](./v2/docs/modules/keys.md)
-- [キーモジュール](./v2/docs/modules/display.md)
+- [ディスプレイモジュール](./v2/docs/modules/display.md)
