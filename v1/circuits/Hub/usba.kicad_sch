@@ -1,0 +1,627 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e4441b02-f721-40fa-80a4-8a641828eb12")
+	(paper "A4")
+	(lib_symbols
+		(symbol "project:10.0QTJ6.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10.0 QTJ6.3"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project:USB-A-SMD_10.0-QTJ6.3"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C404966"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10.0QTJ6.3_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -7.62 90)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 116.84 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7ad8b6-cc3d-4d3a-82a7-32b5c4835d1a")
+	)
+	(junction
+		(at 96.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92f47300-95ef-4f4d-ac63-9d7d675f22f0")
+	)
+	(junction
+		(at 116.84 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa668a30-0fd6-478d-a66d-3550945b7490")
+	)
+	(junction
+		(at 96.52 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff94d12a-1672-46cd-9a50-73cc1a9cadbf")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ddb4dc-b2dc-4a22-b06c-f7367b3ff795")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e6c779-77af-4834-af15-d86fec841bf8")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.01) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c5999c-145d-4c8d-a716-a51d62533cc1")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412e6087-6291-451d-937e-523d0d677ab1")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463f67a4-8b09-42a5-bd68-f83621859c6d")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472a0d56-2450-4da2-ab11-da49a30388da")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583f299e-71c1-4c7a-a649-190b6947caf5")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703f52fd-6d1e-4b8e-927c-b73c1713b1d2")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788e69c2-9c9d-4505-a017-af65f916f032")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96da98fc-8920-42be-b31e-93fe6d854329")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 109.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1ef483-3be7-4cbe-b4d5-8558d1d5bb7e")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f941b0a-98b6-4446-bba8-9b1b70a7b50c")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae041898-260d-4848-8b30-028fdbd35a05")
+	)
+	(wire
+		(pts
+			(xy 116.84 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba944988-1cee-4bf2-abae-88fd9883f2bb")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d134e9-e523-47c6-9952-ba0ed23266aa")
+	)
+	(label "GND"
+		(at 118.11 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "090d20fd-7cbc-498f-90f5-f2ba8559b429")
+	)
+	(label "SDA"
+		(at 102.87 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d697d69-07ce-471e-aa89-066306c81ad4")
+	)
+	(label "SCL"
+		(at 118.11 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cce7207-8bca-4e80-a833-bcf77aaf40f6")
+	)
+	(label "SCL"
+		(at 102.87 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d15ee08-4d1f-4667-bda3-ea761b556523")
+	)
+	(label "GND"
+		(at 96.52 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52d63be7-9fef-4644-96b7-57241901334d")
+	)
+	(label "VCC"
+		(at 102.87 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b04fe3e4-9f22-4b44-8a7c-e9c0a054b708")
+	)
+	(label "VCC"
+		(at 118.11 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c167e32e-7d91-48a6-9710-576a4e2b7140")
+	)
+	(label "SDA"
+		(at 118.11 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c31872a6-070f-4c6e-8cfd-477efe7b3e22")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 124.46 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19d09a2a-d5af-458d-98f4-0f0cde1364f1")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 124.46 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2211e8d7-bcc1-478e-a05d-4d9d8d7a2ceb")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 124.46 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cb927a2-f6e4-4d35-a7ae-3e16d4ed1ce7")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 124.46 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cce7a23-d76c-4857-8fad-4b0b44ba59ed")
+	)
+	(symbol
+		(lib_id "project:10.0QTJ6.3")
+		(at 116.84 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42375111-50a3-49b1-979f-ef9f2759f3e3")
+		(property "Reference" "USB1"
+			(at 123.19 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10.0 QTJ6.3"
+			(at 123.19 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project:USB-A-SMD_10.0-QTJ6.3"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C404966"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C404966"
+			(at 123.19 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2c05cccb-a34c-415f-88b6-46d4e38d0e3b")
+		)
+		(pin "2"
+			(uuid "f24df06e-ba96-4704-898e-2aac7471e41f")
+		)
+		(pin "3"
+			(uuid "39419530-e240-49c0-b287-966772cc12c4")
+		)
+		(pin "8"
+			(uuid "cbf96715-96ff-4f2a-b6a5-2d3277e7a55c")
+		)
+		(pin "7"
+			(uuid "0b167a51-1464-4a51-a605-af14c4c89cc6")
+		)
+		(pin "1"
+			(uuid "8c541ae3-cf60-45f6-aa27-8f51ca370f36")
+		)
+		(pin "4"
+			(uuid "72df6743-b534-4ee3-972d-6bf99b7fb85e")
+		)
+		(pin "5"
+			(uuid "dd508478-7780-4882-af28-387b6573b922")
+		)
+		(instances
+			(project "Hub"
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/bd4ed0f2-7df1-4205-b973-665b313097e1"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,481 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a1d392d2-ee4f-4fb0-82c8-8d558e23cfc8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "project:BX-HY2.0-4PWT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BX-HY2.0-4PWT"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "project:CONN-SMD_4P-P2.0_BX-HY2.0-4PWT"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C18077773"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BX-HY2.0-4PWT_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 45.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49b5eb9-047e-429b-bb40-c63e1e15b03c")
+	)
+	(junction
+		(at 54.61 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d67aa61b-f849-47a6-b521-629b4a8a5528")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 60.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce7e125-e1be-475b-9fdb-48265406b41a")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 54.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325e6294-50e1-4f79-8c69-f22ee1e5af51")
+	)
+	(wire
+		(pts
+			(xy 60.96 58.42) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542d0c7d-f4d8-45b8-bc32-a96d97aec7c8")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfd478f-b5a2-4931-b420-64c37e7f5a39")
+	)
+	(wire
+		(pts
+			(xy 40.64 45.72) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99032a75-8c7e-47dd-a347-b4d31eed05f8")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b278d4c3-205e-4905-9e95-c907224ac3f2")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 48.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5745abe-2c88-491c-8616-4e6cfdbfd29f")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 48.26 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30c7f7e-66be-4c1e-8236-73a8925d4a00")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45a234e-0983-41ff-a60f-95dab7db6561")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed88612c-5bad-4f39-a7c8-0f36e5843c49")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 45.72 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "320af5ac-b08f-4f14-8839-b6e46a9c0a64")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 45.72 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eabff141-c16b-4d6b-a3a9-a25468f09c64")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7c13996-04ca-4405-b325-3153e30be1bf")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 45.72 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9e604b7-fe9d-4a82-8d50-f3616b792139")
+	)
+	(symbol
+		(lib_id "project:BX-HY2.0-4PWT")
+		(at 53.34 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9308ea7b-78c3-47ab-ab4b-eeb333890d84")
+		(property "Reference" "U3"
+			(at 57.15 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BX-HY2.0-4PWT"
+			(at 57.15 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project:CONN-SMD_4P-P2.0_BX-HY2.0-4PWT"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C18077773"
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6f8bb212-d3ec-4304-88bb-0018f612b421")
+		)
+		(pin "2"
+			(uuid "0d77be95-12ac-4b10-8b7f-b3677be1afcf")
+		)
+		(pin "1"
+			(uuid "4cdfa141-43aa-4b99-b0d7-9a7a979a2790")
+		)
+		(pin "4"
+			(uuid "b103b2f0-8be5-4979-8dd4-fdcc825ea8e5")
+		)
+		(pin "5"
+			(uuid "0eb3f3ab-48a2-4633-a649-9d214618c5d5")
+		)
+		(pin "3"
+			(uuid "0a76ee98-b2e7-4197-82be-93ac6e038d7f")
+		)
+		(instances
+			(project ""
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/23a60e0d-0dde-4827-a697-a3bd62f035c9"
+					(reference "U3")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/40440972-9f4f-43e2-87d2-716b15ae7582"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/4bdab907-5f6b-40fd-8a92-a35c8fd31dbe"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/5137e894-5424-4ce5-8446-e050a4f67c96"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/97f43cfd-6f61-4377-b081-500cab5fc457"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/a3c16caf-9762-4dd1-8a97-5ea87d9f5c9e"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/bc9af409-68af-43c9-ba5c-1cce8420d43a"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/d3a216a5-8d13-4727-9387-8d821caf7bc8"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/da8bc384-3086-451f-86b2-3d26b44bceba"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/edd9ef2e-3023-463d-a759-3e2dc4e30102/f2ec5a0d-8dbb-419d-91c8-dfefcec10b0b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
