@@ -31,3 +31,4 @@
 - [カスタマイズガイド](./docs/customize_guide.md)
 - [ファームウェアガイド](./docs/firmware_guide.md)
 - [キーマッピングガイド](./docs/keymap_guide.md)
+- [回路データ](./circuits.md)
